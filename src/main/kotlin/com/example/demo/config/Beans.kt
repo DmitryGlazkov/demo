@@ -5,8 +5,6 @@ import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import com.mongodb.ConnectionString
-import com.mongodb.reactivestreams.client.MongoClients
 import org.elasticsearch.common.settings.Settings
 import org.elasticsearch.common.transport.InetSocketTransportAddress
 import org.elasticsearch.transport.client.PreBuiltTransportClient
@@ -17,7 +15,6 @@ import org.springframework.context.support.GenericApplicationContext
 import org.springframework.context.support.beans
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate
 import org.springframework.data.elasticsearch.core.EntityMapper
-import org.springframework.data.mongodb.core.ReactiveMongoTemplate
 import java.net.InetAddress
 
 
