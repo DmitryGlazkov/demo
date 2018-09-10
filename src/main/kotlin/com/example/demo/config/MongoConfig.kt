@@ -1,6 +1,5 @@
 package com.example.demo.config
 
-import com.example.demo.repo.DriverRepo
 import com.example.demo.repo.ReactiveDriverRepo
 import com.mongodb.reactivestreams.client.MongoClient
 import com.mongodb.reactivestreams.client.MongoClients
@@ -13,7 +12,7 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
 
 //@Configuration
 //@EnableReactiveMongoRepositories(basePackageClasses = arrayOf(ReactiveDriverRepo::class))
-class MongoConfig/* : AbstractReactiveMongoConfiguration()*/ {
+class MongoConfig /*: AbstractReactiveMongoConfiguration()*/ {
 //
 //    override fun reactiveMongoClient(): MongoClient = mongoClient()
 //
